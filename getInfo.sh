@@ -2,7 +2,6 @@
 
 out_file_path=sysinfo.json
 server_address=$1
-#http://localhost:1337/
 
 echo -e "{" >> $out_file_path
 echo -e "\t\"Hostname\": \""`hostname`"\"," >> $out_file_path
