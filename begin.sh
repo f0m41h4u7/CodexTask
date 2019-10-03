@@ -1,3 +1,3 @@
 #!/bin/bash
 
-watch -n 30 getInfo.sh
+watch -n 30 ./getInfo.sh
