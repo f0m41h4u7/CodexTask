@@ -1,0 +1,455 @@
+{
+        "Hostname": "localhost.localdomain",
+	"CPU Usage": 9.84780491974824691600,
+        "Memory(RAM) Info:"
+        {
+		"Total": "Mem:",
+		"Used": "15G",
+		"Free": "1.7G"
+	},
+        "Disk Info:"
+        [
+                {       
+                        "Filesystem": "devtmpfs",
+                        "Size": "7.7G",
+			"Used": "0",
+			"Available": "7.7G",
+			"Use%": "0%",
+			"Mounted on": "/dev"
+                },
+                {       
+                        "Filesystem": "tmpfs",
+                        "Size": "7.7G",
+			"Used": "45M",
+			"Available": "7.6G",
+			"Use%": "1%",
+			"Mounted on": "/dev/shm"
+                },
+                {       
+                        "Filesystem": "tmpfs",
+                        "Size": "7.7G",
+			"Used": "9.6M",
+			"Available": "7.7G",
+			"Use%": "1%",
+			"Mounted on": "/run"
+                },
+                {       
+                        "Filesystem": "tmpfs",
+                        "Size": "7.7G",
+			"Used": "0",
+			"Available": "7.7G",
+			"Use%": "0%",
+			"Mounted on": "/sys/fs/cgroup"
+                },
+                {       
+                        "Filesystem": "/dev/nvme0n1p13",
+                        "Size": "160G",
+			"Used": "17G",
+			"Available": "144G",
+			"Use%": "11%",
+			"Mounted on": "/"
+                },
+                {       
+                        "Filesystem": "/dev/nvme0n1p12",
+                        "Size": "30G",
+			"Used": "12M",
+			"Available": "30G",
+			"Use%": "1%",
+			"Mounted on": "/boot/efi"
+                },
+                {       
+                        "Filesystem": "/dev/nvme0n1p14",
+                        "Size": "131G",
+			"Used": "18G",
+			"Available": "113G",
+			"Use%": "14%",
+			"Mounted on": "/home"
+                },
+                {       
+                        "Filesystem": "tmpfs",
+                        "Size": "1.6G",
+			"Used": "52K",
+			"Available": "1.6G",
+			"Use%": "1%",
+			"Mounted on": "/run/user/1000"
+                },
+        ],
+	"Route Table Info:"
+        [
+                {       
+                        "Destination": "0.0.0.0",
+                        "Gateway": "192.168.10.1",
+                        "Genmask": "0.0.0.0",
+                        "Flags": "UG",
+                        "Metric": "600",
+                        "Ref": "0"
+			"Use": "0"
+			"Iface": "wlp5s0"
+                },
+                {       
+                        "Destination": "172.17.0.0",
+                        "Gateway": "0.0.0.0",
+                        "Genmask": "255.255.0.0",
+                        "Flags": "U",
+                        "Metric": "0",
+                        "Ref": "0"
+			"Use": "0"
+			"Iface": "docker0"
+                },
+                {       
+                        "Destination": "192.168.10.0",
+                        "Gateway": "0.0.0.0",
+                        "Genmask": "255.255.255.0",
+                        "Flags": "U",
+                        "Metric": "600",
+                        "Ref": "0"
+			"Use": "0"
+			"Iface": "wlp5s0"
+                },
+        ],
+	"Running Services:"
+	[
+        	{       
+                	"unit": "abrtd.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "abrt-oops.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "abrt-xorg.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "accounts-daemon.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "alsa-state.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "atd.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "auditd.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "avahi-daemon.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "avahi-daemon.socket,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "bluetooth.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "bolt.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "colord.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "containerd.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "crond.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "cups.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "cups.socket,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "dbus.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "dbus.socket,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "docker.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "docker.socket,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "firewalld.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "gdm.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "gssproxy.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "irqbalance.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "ksmtuned.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "libstoragemgmt.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "lvm2-lvmetad.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "lvm2-lvmetad.socket,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "ModemManager.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "NetworkManager.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "nginx.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "pcscd.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "pcscd.socket,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "polkit.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "postfix.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "rngd.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "rpcbind.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "rpcbind.socket,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "rsyslog.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "rtkit-daemon.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "session-1.scope,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "smartd.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "snmpd.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "sshd.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "systemd-journald.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "systemd-journald.socket,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "systemd-logind.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "systemd-udevd-control.socket,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "systemd-udevd-kernel.socket,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "systemd-udevd.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "tuned.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "udisks2.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "upower.service,",
+	                "status": "loadedactive, running"
+        	},
+        	{       
+                	"unit": "wpa_supplicant.service,",
+	                "status": "loadedactive, running"
+        	},
+	],
+        "Docker Containers:"
+        [
+                {       
+                        "Comtainer ID": "f15620b4f4cc",
+                        "Image": "friendlyhello",
+                        "Command": "python app.py",
+                        "Created": "2 weeks ago",
+                        "Status": "Exited",
+                        "Ports": "",
+                        "Name": "frosty_spence"
+                },
+        ],
+        "Docker Images:"
+        [
+                {       
+                        "Repository": "friendlyhello",
+                        "Tag": "latest",
+                        "Image ID": "60dc04fe0be3",
+                        "Created": "2 weeks ago",
+                        "Size": "927MB"
+                },
+                {       
+                        "Repository": "python",
+                        "Tag": "3.7",
+                        "Image ID": "02d2bb146b3b",
+                        "Created": "5 weeks ago",
+                        "Size": "918MB"
+                },
+                {       
+                        "Repository": "uwsgi-nginx-docker",
+                        "Tag": "latest",
+                        "Image ID": "5cd704780c3a",
+                        "Created": "2 months ago",
+                        "Size": "964MB"
+                },
+                {       
+                        "Repository": "tiangolo/uwsgi-nginx",
+                        "Tag": "python3.7",
+                        "Image ID": "5cd704780c3a",
+                        "Created": "2 months ago",
+                        "Size": "964MB"
+                },
+        ],
+        "NGINX Info:"
+	{
+		"Status": "",
+		"Process": "",
+		"Sites":
+		[
+                	{       
+                        	"Server Name": "",
+                        	"Port": "",
+                	},
+		]
+	}
+}
+        "Docker Containers:"
+        [
+                {       
+                        "Comtainer ID": "f15620b4f4cc",
+                        "Image": "friendlyhello",
+                        "Command": "python app.py",
+                        "Created": "2 weeks ago",
+                        "Status": "Exited",
+                        "Ports": "",
+                        "Name": "frosty_spence"
+                },
+        ],
+        "Docker Containers:"
+        [
+                {       
+                        "Comtainer ID": "f15620b4f4cc",
+                        "Image": "friendlyhello",
+                        "Command": "python app.py",
+                        "Created": "2 weeks ago",
+                        "Status": "Exited",
+                        "Ports": "",
+                        "Name": "frosty_spence"
+                },
+        ],
+        "Docker Containers:"
+        [
+                {       
+                        "Comtainer ID": "f15620b4f4cc",
+                        "Image": "friendlyhello",
+                        "Command": "python app.py",
+                        "Created": "2 weeks ago",
+                        "Status": "Exited",
+                        "Ports": "",
+                        "Name": "frosty_spence"
+                },
+        ],
+        "Docker Images:"
+        [
+                {       
+                        "Repository": "friendlyhello",
+                        "Tag": "latest",
+                        "Image ID": "60dc04fe0be3",
+                        "Created": "2 weeks ago",
+                        "Size": "927MB"
+                },
+                {       
+                        "Repository": "python",
+                        "Tag": "3.7",
+                        "Image ID": "02d2bb146b3b",
+                        "Created": "5 weeks ago",
+                        "Size": "918MB"
+                },
+                {       
+                        "Repository": "tiangolo/uwsgi-nginx",
+                        "Tag": "python3.7",
+                        "Image ID": "5cd704780c3a",
+                        "Created": "2 months ago",
+                        "Size": "964MB"
+                },
+                {       
+                        "Repository": "uwsgi-nginx-docker",
+                        "Tag": "latest",
+                        "Image ID": "5cd704780c3a",
+                        "Created": "2 months ago",
+                        "Size": "964MB"
+                },
+        ],
+        "Docker Containers:"
+        [
+        "Docker Containers:"
+        [
